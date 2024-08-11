@@ -7,3 +7,19 @@ This repository contains contains simple examples of basic Golang concepts. Ther
 | Package Name | Decription                               |
 | ------------ | ---------------------------------------- |
 | hello-world  | Prints `Hello world` to standard output. |
+
+## Running Locally
+
+> Assuming you are in . directory.
+
+To run the different packages locally:
+
+```go
+go run /path/to/main.go
+```
+
+For example, to run `hello-world`:
+
+```go
+go run hello-world/main.go
+```
