@@ -8,6 +8,12 @@ This repository contains contains simple examples of basic Golang concepts. Ther
 | ------------ | ---------------------------------------- |
 | hello-world  | Prints `Hello world` to standard output. |
 
+Below is a list of packages that provide examples of functions.
+
+| Package Name | Description                                                                                 |
+| ------------ | ------------------------------------------------------------------------------------------- |
+| higher-order | Example of higher-order-functions. Simple program to calculate basic properites of a cirle. |
+
 ## Running Locally
 
 > Assuming you are in . directory.
