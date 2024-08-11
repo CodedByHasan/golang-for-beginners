@@ -22,11 +22,14 @@ Below is a list of packages that provide examples of functions.
 
 Below is a list of packages that provide examples of pointers.
 
-| Package Name          | Description                                    |
-| --------------------- | ---------------------------------------------- |
-| address-and-deference | Address `(&)` and dereference operators `(*)`. |
-| declare-pointer       | Declaring a pointer.                           |
-| init-pointer          | Initialising pointer using different methods.  |
+| Package Name            | Description                                                                  |
+| ----------------------- | ---------------------------------------------------------------------------- |
+| _address-and-deference_ | Address `(&)` and dereference operators `(*)`.                               |
+| _declare-pointer_       | Declaring a pointer.                                                         |
+| _dereference-pointer_   | Dereference pointer.                                                         |
+| _init-pointer_          | Initialising pointer using different methods.                                |
+| _pass-by-reference_     | Pass by reference for different types including `string`, `map` and `slice`. |
+| _pass-by-value_         | Pass by value.                                                               |
 
 ## Running Locally
 
