@@ -10,9 +10,10 @@ This repository contains contains simple examples of basic Golang concepts. Ther
 
 Below is a list of packages that provide examples of functions.
 
-| Package Name | Description                                                                                 |
-| ------------ | ------------------------------------------------------------------------------------------- |
-| higher-order | Example of higher-order-functions. Simple program to calculate basic properites of a cirle. |
+| Package Name    | Description                                                                         |
+| --------------- | ----------------------------------------------------------------------------------- |
+| defer-statement | Demonstrates `defer` statement.                                                     |
+| higher-order    | Example of higher-order-functions. Program calculates basic properites of a circle. |
 
 ## Running Locally
 
