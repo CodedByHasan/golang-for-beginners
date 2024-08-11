@@ -1,6 +1,7 @@
 # Golang for Beginners
 
-This repository contains contains simple examples of basic Golang concepts. There examples are provided by KodeKloud's [Golang for Beginners](https://learn.kodekloud.com/courses/golang) course.
+This repository contains contains simple examples of basic Golang concepts. There examples are provided by KodeKloud's
+[Golang for Beginners](https://learn.kodekloud.com/courses/golang) course.
 
 ## Repository Overview
 
@@ -8,12 +9,27 @@ This repository contains contains simple examples of basic Golang concepts. Ther
 | ------------ | ---------------------------------------- |
 | hello-world  | Prints `Hello world` to standard output. |
 
+### Functions
+
 Below is a list of packages that provide examples of functions.
 
-| Package Name    | Description                                                                         |
-| --------------- | ----------------------------------------------------------------------------------- |
-| defer-statement | Demonstrates `defer` statement.                                                     |
-| higher-order    | Example of higher-order-functions. Program calculates basic properites of a circle. |
+| Package Name    | Description                                                                       |
+| --------------- | --------------------------------------------------------------------------------- |
+| defer-statement | Demonstrates `defer` statement.                                                   |
+| higher-order    | Program calculates basic properties of a circle. Contains higher order functions. |
+
+### Pointers
+
+Below is a list of packages that provide examples of pointers.
+
+| Package Name            | Description                                                                  |
+| ----------------------- | ---------------------------------------------------------------------------- |
+| _address-and-deference_ | Address `(&)` and dereference operators `(*)`.                               |
+| _declare-pointer_       | Declaring a pointer.                                                         |
+| _dereference-pointer_   | Dereference pointer.                                                         |
+| _init-pointer_          | Initialising pointer using different methods.                                |
+| _pass-by-reference_     | Pass by reference for different types including `string`, `map` and `slice`. |
+| _pass-by-value_         | Pass by value.                                                               |
 
 ## Running Locally
 
