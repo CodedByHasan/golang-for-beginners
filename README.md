@@ -35,11 +35,12 @@ Below is a list of packages that provide examples of pointers.
 
 Below is a list of packages that provide example of structs:
 
-| Package Name       | Description                                                                       |
-| ------------------ | --------------------------------------------------------------------------------- |
-| _accessing-fields_ | [Accessing fields within a struct](./structs/accessing-fields/main.go).           |
-| _declare-struct_   | [Declare a `struct`](./structs/declare-struct/main.go).                           |
-| _init-struct_      | [Initialising a `struct` using different methods](./structs/init-struct/main.go). |
+| Package Name          | Description                                                                                     |
+| --------------------- | ----------------------------------------------------------------------------------------------- |
+| _accessing-fields_    | [Accessing fields within a struct](./structs/accessing-fields/main.go).                         |
+| _declare-struct_      | [Declare a `struct`](./structs/declare-struct/main.go).                                         |
+| _init-struct_         | [Initialising a `struct` using different methods](./structs/init-struct/main.go).               |
+| _pass-struct-to-func_ | [Passing `struct` to a function by reference and value](./structs/pass-struct-to-func/main.go). |
 
 ## Running Locally
 
