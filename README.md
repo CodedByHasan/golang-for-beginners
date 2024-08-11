@@ -5,35 +5,35 @@ This repository contains contains simple examples of basic Golang concepts. Ther
 
 ## Repository Overview
 
-| Package Name | Decription                               |
-| ------------ | ---------------------------------------- |
-| hello-world  | Prints `Hello world` to standard output. |
+| Package Name | Decription                                                        |
+| ------------ | ----------------------------------------------------------------- |
+| hello-world  | [Prints `Hello world` to standard output](./hello-world/main.go). |
 
 ### Functions
 
 Below is a list of packages that provide examples of functions.
 
-| Package Name      | Description                                                                       |
-| ----------------- | --------------------------------------------------------------------------------- |
-| _defer-statement_ | Demonstrates `defer` statement.                                                   |
-| _higher-order_    | Program calculates basic properties of a circle. Contains higher order functions. |
+| Package Name      | Description                                                                                                         |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------- |
+| _defer-statement_ | [Demonstrates `defer` statement](./functions/defer-statement/main.go).                                              |
+| _higher-order_    | [Calculates basic properties of a circle with example of higher order functions](./functions/higher-order/main.go). |
 
 ### Pointers
 
 Below is a list of packages that provide examples of pointers.
 
-| Package Name            | Description                                                                  |
-| ----------------------- | ---------------------------------------------------------------------------- |
-| _address-and-deference_ | Address `(&)` and dereference operators `(*)`.                               |
-| _declare-pointer_       | Declaring a pointer.                                                         |
-| _dereference-pointer_   | Dereference pointer.                                                         |
-| _init-pointer_          | Initialising pointer using different methods.                                |
-| _pass-by-reference_     | Pass by reference for different types including `string`, `map` and `slice`. |
-| _pass-by-value_         | Pass by value.                                                               |
+| Package Name            | Description                                                                                                          |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| _address-and-deference_ | [Address `(&)` and dereference operators `(*)`](./pointers/address-and-dereference/main.go).                         |
+| _declare-pointer_       | [Declaring a pointer](./pointers/declare-pointer/main.go).                                                           |
+| _dereference-pointer_   | [Dereference pointer](./pointers/dereference-pointer/main.go).                                                       |
+| _init-pointer_          | [Initialising pointer using different methods](./pointers/init-pointer/main.go).                                     |
+| _pass-by-reference_     | [Pass by reference for different types including `string`, `map` and `slice`](./pointers/pass-by-reference/main.go). |
+| _pass-by-value_         | [Pass by value](./pointers/pass-by-value/main.go).                                                                   |
 
 ### Structs
 
-Below is a list of packages that provide example of structs:
+A `struct` is a collection of fields. Below is a list of packages that provide example of structs:
 
 | Package Name          | Description                                                                                     |
 | --------------------- | ----------------------------------------------------------------------------------------------- |
