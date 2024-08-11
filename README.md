@@ -13,10 +13,10 @@ This repository contains contains simple examples of basic Golang concepts. Ther
 
 Below is a list of packages that provide examples of functions.
 
-| Package Name    | Description                                                                       |
-| --------------- | --------------------------------------------------------------------------------- |
-| defer-statement | Demonstrates `defer` statement.                                                   |
-| higher-order    | Program calculates basic properties of a circle. Contains higher order functions. |
+| Package Name      | Description                                                                       |
+| ----------------- | --------------------------------------------------------------------------------- |
+| _defer-statement_ | Demonstrates `defer` statement.                                                   |
+| _higher-order_    | Program calculates basic properties of a circle. Contains higher order functions. |
 
 ### Pointers
 
@@ -30,6 +30,15 @@ Below is a list of packages that provide examples of pointers.
 | _init-pointer_          | Initialising pointer using different methods.                                |
 | _pass-by-reference_     | Pass by reference for different types including `string`, `map` and `slice`. |
 | _pass-by-value_         | Pass by value.                                                               |
+
+### Structs
+
+Below is a list of packages that provide example of structs:
+
+| Package Name     | Description                                      |
+| ---------------- | ------------------------------------------------ |
+| _declare-struct_ | Declare a `struct`.                              |
+| _init-struct_    | Initialising a `struct` using different methods. |
 
 ## Running Locally
 
