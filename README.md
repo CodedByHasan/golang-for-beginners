@@ -43,6 +43,15 @@ A `struct` is a collection of fields. Below is a list of packages that provide e
 | _init-struct_         | [Initialising a `struct` using different methods](./structs/init-struct/main.go).               |
 | _pass-struct-to-func_ | [Passing `struct` to a function by reference and value](./structs/pass-struct-to-func/main.go). |
 
+### Methods
+
+A [method](https://go.dev/tour/methods/1) is a function with a special receiver argument. The receiver appears in its
+own argument list between the `func` keyword and the method name.
+
+| Package Name | Description                         |
+| ------------ | ----------------------------------- |
+| _methods_    | [Simple method](./methods/main.go). |
+
 ## Running Locally
 
 > Assuming you are in . directory.
