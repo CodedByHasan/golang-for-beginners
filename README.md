@@ -5,9 +5,9 @@ This repository contains contains simple examples of basic Golang concepts. Ther
 
 ## Repository Overview
 
-| Package Name | Decription                                                        |
-| ------------ | ----------------------------------------------------------------- |
-| hello-world  | [Prints `Hello world` to standard output](./hello-world/main.go). |
+| Package Name  | Decription                                                        |
+| ------------- | ----------------------------------------------------------------- |
+| _hello-world_ | [Prints `Hello world` to standard output](./hello-world/main.go). |
 
 ### Functions
 
@@ -20,7 +20,7 @@ Below is a list of packages that provide examples of functions.
 
 ### Pointers
 
-Below is a list of packages that provide examples of pointers.
+A [pointer](https://go.dev/tour/moretypes/1) holds the memory address of a value. Below is a list of packages that provide examples of pointers.
 
 | Package Name            | Description                                                                                                          |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------- |
