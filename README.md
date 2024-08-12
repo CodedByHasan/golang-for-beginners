@@ -9,9 +9,20 @@ This repository contains contains simple examples of basic Golang concepts. Ther
 | ------------- | ----------------------------------------------------------------- |
 | _hello-world_ | [Prints `Hello world` to standard output](./hello-world/main.go). |
 
+### Interfaces
+
+An [interface](https://go.dev/tour/methods/9) specifies a method set and is a way useful way to introduce modularity.
+It is like a blueprint for a method set.
+
+Below is a list packages that provide examples of interfaces:
+
+| Package Name | Description                                                                       |
+| ------------ | --------------------------------------------------------------------------------- |
+| _interfaces_ | [Two different structs that impolement a common interface](./interfaces/main.go). |
+
 ### Functions
 
-Below is a list of packages that provide examples of functions.
+Below is a list of packages that provide examples of functions:
 
 | Package Name      | Description                                                                                                         |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------- |
