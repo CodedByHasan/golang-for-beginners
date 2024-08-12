@@ -8,7 +8,6 @@ type Circle struct {
 }
 
 // Example of a method with receiver of type *Circle
-// name c
 func (c *Circle) calcAreaPassByRef() {
 	c.area = 3.14 * c.radius * c.radius
 }
