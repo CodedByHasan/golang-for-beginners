@@ -1,6 +1,6 @@
 # Golang for Beginners
 
-This repository contains contains simple examples of basic Golang concepts. There examples are provided by KodeKloud's
+This repository contains contains simple examples of basic Golang concepts. There examples are obtained from KodeKloud's
 [Golang for Beginners](https://learn.kodekloud.com/courses/golang) course.
 
 ## Repository Overview
@@ -16,9 +16,9 @@ It is like a blueprint for a method set.
 
 Below is a list packages that provide examples of interfaces:
 
-| Package Name | Description                                                                       |
-| ------------ | --------------------------------------------------------------------------------- |
-| _interfaces_ | [Two different structs that impolement a common interface](./interfaces/main.go). |
+| Package Name | Description                                                                      |
+| ------------ | -------------------------------------------------------------------------------- |
+| _interfaces_ | [Two different structs that implement a common interface](./interfaces/main.go). |
 
 ### Functions
 
@@ -28,10 +28,13 @@ Below is a list of packages that provide examples of functions:
 | ----------------- | ------------------------------------------------------------------------------------------------------------------- |
 | _defer-statement_ | [Demonstrates `defer` statement](./functions/defer-statement/main.go).                                              |
 | _higher-order_    | [Calculates basic properties of a circle with example of higher order functions](./functions/higher-order/main.go). |
+| _recursive_       | [Calculates n! using recursion](./functions/recursive/main.go).                                                     |
 
 ### Pointers
 
-A [pointer](https://go.dev/tour/moretypes/1) holds the memory address of a value. Below is a list of packages that provide examples of pointers.
+A [pointer](https://go.dev/tour/moretypes/1) holds the memory address of a value.
+
+Below is a list of packages that provide examples of pointers.
 
 | Package Name            | Description                                                                                                          |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -44,7 +47,9 @@ A [pointer](https://go.dev/tour/moretypes/1) holds the memory address of a value
 
 ### Structs
 
-A `struct` is a collection of fields. Below is a list of packages that provide example of structs:
+A `struct` is a collection of fields.
+
+Below is a list of packages that provide example of structs:
 
 | Package Name          | Description                                                                                     |
 | --------------------- | ----------------------------------------------------------------------------------------------- |
@@ -58,6 +63,8 @@ A `struct` is a collection of fields. Below is a list of packages that provide e
 
 A [method](https://go.dev/tour/methods/1) is a function with a special receiver argument. The receiver appears in its
 own argument list between the `func` keyword and the method name.
+
+Below is a list packages that provide examples of methods:
 
 | Package Name | Description                                                                    |
 | ------------ | ------------------------------------------------------------------------------ |
