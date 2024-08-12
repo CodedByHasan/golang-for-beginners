@@ -48,9 +48,10 @@ A `struct` is a collection of fields. Below is a list of packages that provide e
 A [method](https://go.dev/tour/methods/1) is a function with a special receiver argument. The receiver appears in its
 own argument list between the `func` keyword and the method name.
 
-| Package Name | Description                         |
-| ------------ | ----------------------------------- |
-| _methods_    | [Simple method](./methods/main.go). |
+| Package Name | Description                                                                    |
+| ------------ | ------------------------------------------------------------------------------ |
+| _methods_    | [Simple method](./methods/intro/main.go).                                      |
+| _method-set_ | [Method set used to interface with a `struct`](./methods/method-sets/main.go). |
 
 ## Running Locally
 
