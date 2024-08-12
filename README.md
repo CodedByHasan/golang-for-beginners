@@ -5,9 +5,9 @@ This repository contains contains simple examples of basic Golang concepts. Ther
 
 ## Repository Overview
 
-| Package Name | Decription                                                        |
-| ------------ | ----------------------------------------------------------------- |
-| hello-world  | [Prints `Hello world` to standard output](./hello-world/main.go). |
+| Package Name  | Decription                                                        |
+| ------------- | ----------------------------------------------------------------- |
+| _hello-world_ | [Prints `Hello world` to standard output](./hello-world/main.go). |
 
 ### Functions
 
@@ -20,7 +20,7 @@ Below is a list of packages that provide examples of functions.
 
 ### Pointers
 
-Below is a list of packages that provide examples of pointers.
+A [pointer](https://go.dev/tour/moretypes/1) holds the memory address of a value. Below is a list of packages that provide examples of pointers.
 
 | Package Name            | Description                                                                                                          |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -42,6 +42,16 @@ A `struct` is a collection of fields. Below is a list of packages that provide e
 | _declare-struct_      | [Declare a `struct`](./structs/declare-struct/main.go).                                         |
 | _init-struct_         | [Initialising a `struct` using different methods](./structs/init-struct/main.go).               |
 | _pass-struct-to-func_ | [Passing `struct` to a function by reference and value](./structs/pass-struct-to-func/main.go). |
+
+### Methods
+
+A [method](https://go.dev/tour/methods/1) is a function with a special receiver argument. The receiver appears in its
+own argument list between the `func` keyword and the method name.
+
+| Package Name | Description                                                                    |
+| ------------ | ------------------------------------------------------------------------------ |
+| _methods_    | [Simple method](./methods/intro/main.go).                                      |
+| _method-set_ | [Method set used to interface with a `struct`](./methods/method-sets/main.go). |
 
 ## Running Locally
 
