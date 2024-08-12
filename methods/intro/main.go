@@ -12,6 +12,7 @@ func (c *Circle) calcAreaPassByRef() {
 	c.area = 3.14 * c.radius * c.radius
 }
 
+// Another example of a method with receiver type of Circle
 func (c Circle) calcAreaPassByVal() {
 	c.area = 3.14 * c.radius * c.radius
 }
