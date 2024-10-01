@@ -6,7 +6,7 @@ This repository contains contains simple examples of basic Golang concepts. Ther
 ## Repository Overview
 
 | Package Name  | Decription                                                        |
-| ------------- | ----------------------------------------------------------------- |
+|---------------|-------------------------------------------------------------------|
 | _hello-world_ | [Prints `Hello world` to standard output](./hello-world/main.go). |
 
 ### Interfaces
@@ -17,7 +17,7 @@ It is like a blueprint for a method set.
 Below is a list packages that provide examples of interfaces:
 
 | Package Name | Description                                                                      |
-| ------------ | -------------------------------------------------------------------------------- |
+|--------------|----------------------------------------------------------------------------------|
 | _interfaces_ | [Two different structs that implement a common interface](./interfaces/main.go). |
 
 ### Functions
@@ -25,12 +25,13 @@ Below is a list packages that provide examples of interfaces:
 Below is a list of packages that provide examples of functions:
 
 | Package Name      | Description                                                                                                         |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------- |
+|-------------------|---------------------------------------------------------------------------------------------------------------------|
 | _anonymous_       | [Function that does not contain a name](./functions/anonymous/main.go).                                             |
 | _defer-statement_ | [Demonstrates `defer` statement](./functions/defer-statement/main.go).                                              |
 | _higher-order_    | [Calculates basic properties of a circle with example of higher order functions](./functions/higher-order/main.go). |
 | _recursive_       | [Calculates n! using recursion](./functions/recursive/main.go).                                                     |
 | _variadic_        | [Functions that take 0 or more inputs of the same type](./functions/variadic/main.go).                              |
+| _examples_        | [Contains examples functions](./functions/examples/)                                                                |
 
 ### Pointers
 
@@ -39,7 +40,7 @@ A [pointer](https://go.dev/tour/moretypes/1) holds the memory address of a value
 Below is a list of packages that provide examples of pointers.
 
 | Package Name            | Description                                                                                                          |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------------- |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------|
 | _address-and-deference_ | [Address `(&)` and dereference operators `(*)`](./pointers/address-and-dereference/main.go).                         |
 | _declare-pointer_       | [Declaring a pointer](./pointers/declare-pointer/main.go).                                                           |
 | _dereference-pointer_   | [Dereference pointer](./pointers/dereference-pointer/main.go).                                                       |
@@ -54,7 +55,7 @@ A `struct` is a collection of fields.
 Below is a list of packages that provide example of structs:
 
 | Package Name          | Description                                                                                     |
-| --------------------- | ----------------------------------------------------------------------------------------------- |
+|-----------------------|-------------------------------------------------------------------------------------------------|
 | _accessing-fields_    | [Accessing fields within a struct](./structs/accessing-fields/main.go).                         |
 | _comparing-structs_   | [Comparing structs](./structs/comparing-structs/main.go).                                       |
 | _declare-struct_      | [Declare a `struct`](./structs/declare-struct/main.go).                                         |
@@ -69,7 +70,7 @@ own argument list between the `func` keyword and the method name.
 Below is a list packages that provide examples of methods:
 
 | Package Name | Description                                                                    |
-| ------------ | ------------------------------------------------------------------------------ |
+|--------------|--------------------------------------------------------------------------------|
 | _methods_    | [Simple method](./methods/intro/main.go).                                      |
 | _method-set_ | [Method set used to interface with a `struct`](./methods/method-sets/main.go). |
 
