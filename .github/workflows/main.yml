@@ -1,5 +1,4 @@
 name: Golangci-lint
-uses: golangci/golangci-lint-action@v6.1.0
 
 on:
     pull_request:
@@ -21,6 +20,6 @@ jobs:
               with:
                   go-version: stable
             - name: golangci-lint
-              uses: golangci/golangci-lint-action@v6
+              uses: golangci/golangci-lint-action@v6.1.0
               with:
                   version: v1.60
