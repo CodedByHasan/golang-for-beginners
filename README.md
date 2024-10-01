@@ -31,7 +31,7 @@ Below is a list of packages that provide examples of functions:
 | _higher-order_    | [Calculates basic properties of a circle with example of higher order functions](./functions/higher-order/main.go). |
 | _recursive_       | [Calculates n! using recursion](./functions/recursive/main.go).                                                     |
 | _variadic_        | [Functions that take 0 or more inputs of the same type](./functions/variadic/main.go).                              |
-| _examples_        | [Contains examples functions](./functions/examples/)                                                                |
+| _examples_        | [Contains example functions](./functions/examples/)                                                                 |
 
 ### Pointers
 
