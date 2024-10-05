@@ -4,7 +4,7 @@ This repository contains contains simple examples of basic [Golang](https://go.d
 
 ## Repository Overview
 
-Below is an outline of the repositories, including all packages and a brief description outlining their functionality.
+Below is an outline of all packages contained in this repository.
 
 ### Hello World
 
