@@ -78,6 +78,8 @@ Below is a list packages that provide examples of methods:
 
 ### Go routines
 
+A [`goroutine`](https://go.dev/tour/concurrency/1) is a lightweight thread managed by the Go runtime.
+
 | Package Name           | Description                                                                          |
 |------------------------|--------------------------------------------------------------------------------------|
 | _anonymous-go-routine_ | [Anonymous `go routine`](./go-routines/anonymous-go-routine/main.go).                |
