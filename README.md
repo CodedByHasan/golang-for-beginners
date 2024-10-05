@@ -5,6 +5,8 @@ This repository contains contains simple examples of basic Golang concepts. Ther
 
 ## Repository Overview
 
+Below is an outline of the repositories, including all packages and a brief description outlining their functionality.
+
 | Package Name  | Decription                                                        |
 |---------------|-------------------------------------------------------------------|
 | _hello-world_ | [Prints `Hello world` to standard output](./hello-world/main.go). |
@@ -73,6 +75,15 @@ Below is a list packages that provide examples of methods:
 |--------------|--------------------------------------------------------------------------------|
 | _methods_    | [Simple method](./methods/intro/main.go).                                      |
 | _method-set_ | [Method set used to interface with a `struct`](./methods/method-sets/main.go). |
+
+### Go routines
+
+| Package Name           | Description                                                                          |
+|------------------------|--------------------------------------------------------------------------------------|
+| _anonymous-go-routine_ | [Anonymous `go routine`](./go-routines/anonymous-go-routine/main.go).                |
+| _main-go-routine_      | [The `main go routine`](./go-routines/main-go-routine/main.go).                      |
+| _simple-example_       | [Simple example demonstrating a `go routine`](./go-routines/simple-example/main.go). |
+| _wait-groups_          | [An example of a `WaitGroup`](./go-routines/wait-groups/main.go).                    |
 
 ## Running Locally
 
