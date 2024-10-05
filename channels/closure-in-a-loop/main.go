@@ -1,3 +1,4 @@
+// This program spawns a goroutine closure in a loop
 package main
 
 import (
