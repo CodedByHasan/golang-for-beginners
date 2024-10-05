@@ -12,6 +12,7 @@ func main() {
     select {
     case msg := <-channel1:
         fmt.Println(msg)
+    // Time out    
     case <-time.After(1 * time.Second):
         fmt.Println("Select timeout")
     }
