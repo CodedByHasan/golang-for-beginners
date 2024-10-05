@@ -55,17 +55,17 @@ Below is a list of packages that provide examples of pointers.
 
 ### Structs
 
-A [struct](https://go.dev/tour/moretypes/2) is a collection of fields.
+A [`struct`](https://go.dev/tour/moretypes/2) is a collection of fields.
 
 Below is a list of packages that provide example of structs:
 
-| Package Name                                                   | Description                                          |
-|----------------------------------------------------------------|------------------------------------------------------|
-| [_accessing-fields_](./structs/accessing-fields/main.go)       | Accessing fields within a struct.                    |
-| [_comparing-structs_](./structs/comparing-structs/main.go)     | Comparing structs.                                   |
-| [_declare-struct_](./structs/declare-struct/main.go)           | Declare a struct.                                    |
-| [_init-struct_](./structs/init-struct/main.go)                 | Initialising a struct using different methods.       |
-| [_pass-struct-to-func_](./structs/pass-struct-to-func/main.go) | Passing struct to a function by reference and value. |
+| Package Name                                                   | Description                                            |
+|----------------------------------------------------------------|--------------------------------------------------------|
+| [_accessing-fields_](./structs/accessing-fields/main.go)       | Accessing fields within a `struct`.                    |
+| [_comparing-structs_](./structs/comparing-structs/main.go)     | Comparing structs.                                     |
+| [_declare-struct_](./structs/declare-struct/main.go)           | Declare a `struct`.                                    |
+| [_init-struct_](./structs/init-struct/main.go)                 | Initialising a `struct` using different methods.       |
+| [_pass-struct-to-func_](./structs/pass-struct-to-func/main.go) | Passing `struct` to a function by reference and value. |
 
 ### Methods
 
@@ -87,8 +87,8 @@ Below is a list packages that provide examples of go routines:
 
 | Package Name                                                         | Description                                                       |
 |----------------------------------------------------------------------|-------------------------------------------------------------------|
-| [_anonymous-go-routine_](./go-routines/anonymous-go-routine/main.go) | Anonymous `go` routine`.                                          |
-| [_main-go-routine_](./go-routines/main-go-routine/main.go)           | The `main` go routine`.                                           |
+| [_anonymous-go-routine_](./go-routines/anonymous-go-routine/main.go) | Anonymous go routine.                                             |
+| [_main-go-routine_](./go-routines/main-go-routine/main.go)           | The `main` go routine.                                            |
 | [_simple-example_](./go-routines/simple-example/main.go)             | Simple example demonstrating a `go` routine.                      |
 | [ _wait-groups_](./go-routines/wait-groups/main.go)                  | An example of a [`WaitGroup`](https://pkg.go.dev/sync#WaitGroup). |
 
