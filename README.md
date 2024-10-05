@@ -104,6 +104,7 @@ Below is a list packages that provide examples of channels:
 | [_read-and-write_](./channels/read-and-write/main.go)       | Send and receive messages on unbuffered channels.                                    |
 | [_buffered_](./channels/buffered/main.go)                   | Send and receive messages on [buffered channels](https://go.dev/tour/concurrency/3). |
 | [_closing-a-channel_](./channels/closing-a-channel/main.go) | Example of closing a buffered channel.                                               |
+| [_for-range_](./channels/for-range/main.go)                 | Using a `for-range` to receive data from a buffered channel.                         |
 
 ## Running Locally
 
