@@ -95,6 +95,7 @@ channel operater `<-`.
 | Package Name     | Description                                                                             |
 |------------------|-----------------------------------------------------------------------------------------|
 | _read-and-write_ | [Send and receive messages on unbuffered channels ](./channels/read-and-write/main.go). |
+| _buffered_       | [Send and receive messages on buffered channels ](./channels/buffered/main.go).         |
 
 ## Running Locally
 
