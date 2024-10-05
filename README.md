@@ -99,12 +99,14 @@ channel operater `<-`.
 
 Below is a list packages that provide examples of channels:
 
-| Package Name                                                | Description                                                                          |
-|-------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [_read-and-write_](./channels/read-and-write/main.go)       | Send and receive messages on unbuffered channels.                                    |
-| [_buffered_](./channels/buffered/main.go)                   | Send and receive messages on [buffered channels](https://go.dev/tour/concurrency/3). |
-| [_closing-a-channel_](./channels/closing-a-channel/main.go) | Example of closing a buffered channel.                                               |
-| [_for-range_](./channels/for-range/main.go)                 | Using a `for-range` to receive data from a buffered channel.                         |
+| Package Name                                                | Description                                                                                                   |
+|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| [_read-and-write_](./channels/read-and-write/main.go)       | Send and receive messages on unbuffered channels.                                                             |
+| [_buffered_](./channels/buffered/main.go)                   | Send and receive messages on [buffered channels](https://go.dev/tour/concurrency/3).                          |
+| [_closing-a-channel_](./channels/closing-a-channel/main.go) | Example of closing a buffered channel.                                                                        |
+| [_for-range_](./channels/for-range/main.go)                 | Using a `for-range` to receive data from a buffered channel.                                                  |
+| [_go-routine-leak_](./channels/go-routine-leak/main.go)     | A goroutine leak cause by a goroutine that remains active indefinitely.                                       |
+| [_select-statement_](./channels/select-statement/main.go)   | Using a [`select`](https://go.dev/tour/concurrency/5) statement to wait on multiple communication operations. |
 
 ## Running Locally
 
