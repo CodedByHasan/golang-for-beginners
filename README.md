@@ -87,6 +87,15 @@ A [`goroutine`](https://go.dev/tour/concurrency/1) is a lightweight thread manag
 | _simple-example_       | [Simple example demonstrating a `go routine`](./go-routines/simple-example/main.go). |
 | _wait-groups_          | [An example of a `WaitGroup`](./go-routines/wait-groups/main.go).                    |
 
+### Channels
+
+[Channels](https://go.dev/tour/concurrency/2) are a typed conduit thorugh which you can send and recieve values with the
+channel operater `<-`.
+
+| Package Name     | Description                                                                             |
+|------------------|-----------------------------------------------------------------------------------------|
+| _read-and-write_ | [Send and receive messages on unbuffered channels ](./channels/read-and-write/main.go). |
+
 ## Running Locally
 
 > Assuming you are in . directory.

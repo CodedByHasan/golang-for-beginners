@@ -1,3 +1,6 @@
+// The channels in this program are Unbuffered Channels
+// This type of channel needs a receiver as SOON as a
+// message is emitted to the channel.
 package main
 
 import (
