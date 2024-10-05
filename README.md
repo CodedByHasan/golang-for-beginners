@@ -71,31 +71,31 @@ own argument list between the `func` keyword and the method name.
 
 Below is a list packages that provide examples of methods:
 
-| Package Name | Description                                                                    |
-|--------------|--------------------------------------------------------------------------------|
-| _methods_    | [Simple method](./methods/intro/main.go).                                      |
-| _method-set_ | [Method set used to interface with a `struct`](./methods/method-sets/main.go). |
+| Package Name                                  | Description                                                                      |
+|-----------------------------------------------|----------------------------------------------------------------------------------|
+| [_methods_](./methods/intro/main.go)          | Simple method.                                                                   |
+| [_method-set_](./methods/method-sets/main.go) | Method set used to interface with a [`struct`](https://go.dev/tour/moretypes/2). |
 
 ### Go routines
 
 A [`goroutine`](https://go.dev/tour/concurrency/1) is a lightweight thread managed by the Go runtime.
 
-| Package Name           | Description                                                                          |
-|------------------------|--------------------------------------------------------------------------------------|
-| _anonymous-go-routine_ | [Anonymous `go routine`](./go-routines/anonymous-go-routine/main.go).                |
-| _main-go-routine_      | [The `main go routine`](./go-routines/main-go-routine/main.go).                      |
-| _simple-example_       | [Simple example demonstrating a `go routine`](./go-routines/simple-example/main.go). |
-| _wait-groups_          | [An example of a `WaitGroup`](./go-routines/wait-groups/main.go).                    |
+| Package Name                                                         | Description                                                       |
+|----------------------------------------------------------------------|-------------------------------------------------------------------|
+| [_anonymous-go-routine_](./go-routines/anonymous-go-routine/main.go) | Anonymous `go` routine`.                                          |
+| [_main-go-routine_](./go-routines/main-go-routine/main.go)           | The `main` go routine`.                                           |
+| [_simple-example_](./go-routines/simple-example/main.go)             | Simple example demonstrating a `go` routine.                      |
+| [ _wait-groups_](./go-routines/wait-groups/main.go)                  | An example of a [`WaitGroup`](https://pkg.go.dev/sync#WaitGroup). |
 
 ### Channels
 
-[Channels](https://go.dev/tour/concurrency/2) are a typed conduit thorugh which you can send and recieve values with the
+[Channels](https://go.dev/tour/concurrency/2) are a typed conduit through which you can send and recieve values with the
 channel operater `<-`.
 
-| Package Name     | Description                                                                             |
-|------------------|-----------------------------------------------------------------------------------------|
-| _read-and-write_ | [Send and receive messages on unbuffered channels ](./channels/read-and-write/main.go). |
-| _buffered_       | [Send and receive messages on buffered channels ](./channels/buffered/main.go).         |
+| Package Name                                          | Description                                                                          |
+|-------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [_read-and-write_](./channels/read-and-write/main.go) | Send and receive messages on unbuffered channels.                                    |
+| [_buffered_](./channels/buffered/main.go)             | Send and receive messages on[ buffered channels](https://go.dev/tour/concurrency/3). |
 
 ## Running Locally
 
