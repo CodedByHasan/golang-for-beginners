@@ -15,6 +15,14 @@ func main() {
     // closing channel
     close(channel)
 
+    // Closing an already closed channel will
+    // cause a panic situation!
+    // close(channel)
+
+    // Sending data to a closed channel will cause
+    // a panic situation!
+    // channel <- 3
+
     val, ok = <-channel
     fmt.Println(val, ok)
 
