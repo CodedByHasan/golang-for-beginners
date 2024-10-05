@@ -99,10 +99,11 @@ channel operater `<-`.
 
 Below is a list packages that provide examples of channels:
 
-| Package Name                                          | Description                                                                          |
-|-------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [_read-and-write_](./channels/read-and-write/main.go) | Send and receive messages on unbuffered channels.                                    |
-| [_buffered_](./channels/buffered/main.go)             | Send and receive messages on[ buffered channels](https://go.dev/tour/concurrency/3). |
+| Package Name                                                | Description                                                                          |
+|-------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [_read-and-write_](./channels/read-and-write/main.go)       | Send and receive messages on unbuffered channels.                                    |
+| [_buffered_](./channels/buffered/main.go)                   | Send and receive messages on [buffered channels](https://go.dev/tour/concurrency/3). |
+| [_closing-a-channel_](./channels/closing-a-channel/main.go) | Example of closing a buffered channel.                                               |
 
 ## Running Locally
 
