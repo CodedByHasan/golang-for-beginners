@@ -80,6 +80,8 @@ Below is a list packages that provide examples of methods:
 
 A [`goroutine`](https://go.dev/tour/concurrency/1) is a lightweight thread managed by the Go runtime.
 
+Below is a list packages that provide examples of go routines:
+
 | Package Name                                                         | Description                                                       |
 |----------------------------------------------------------------------|-------------------------------------------------------------------|
 | [_anonymous-go-routine_](./go-routines/anonymous-go-routine/main.go) | Anonymous `go` routine`.                                          |
@@ -91,6 +93,8 @@ A [`goroutine`](https://go.dev/tour/concurrency/1) is a lightweight thread manag
 
 [Channels](https://go.dev/tour/concurrency/2) are a typed conduit through which you can send and recieve values with the
 channel operater `<-`.
+
+Below is a list packages that provide examples of channels:
 
 | Package Name                                          | Description                                                                          |
 |-------------------------------------------------------|--------------------------------------------------------------------------------------|
