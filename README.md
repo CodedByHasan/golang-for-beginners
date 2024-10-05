@@ -1,7 +1,6 @@
 # Golang for Beginners
 
-This repository contains contains simple examples of basic Golang concepts. There examples are obtained from KodeKloud's
-[Golang for Beginners](https://learn.kodekloud.com/courses/golang) course.
+This repository contains contains simple examples of basic [Golang](https://go.dev/) concepts.
 
 ## Repository Overview
 
@@ -60,13 +59,13 @@ A [struct](https://go.dev/tour/moretypes/2) is a collection of fields.
 
 Below is a list of packages that provide example of structs:
 
-| Package Name                                               | Description                                                                                   |
-|------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| [_accessing-fields_](./structs/accessing-fields/main.go)   | Accessing fields within a struct.                                                             |
-| [_comparing-structs_](./structs/comparing-structs/main.go) | Comparing structs.                                                                            |
-| _declare-struct_                                           | [Declare a struct](./structs/declare-struct/main.go).                                         |
-| _init-struct_                                              | [Initialising a struct using different methods](./structs/init-struct/main.go).               |
-| _pass-struct-to-func_                                      | [Passing struct to a function by reference and value](./structs/pass-struct-to-func/main.go). |
+| Package Name                                                   | Description                                          |
+|----------------------------------------------------------------|------------------------------------------------------|
+| [_accessing-fields_](./structs/accessing-fields/main.go)       | Accessing fields within a struct.                    |
+| [_comparing-structs_](./structs/comparing-structs/main.go)     | Comparing structs.                                   |
+| [_declare-struct_](./structs/declare-struct/main.go)           | Declare a struct.                                    |
+| [_init-struct_](./structs/init-struct/main.go)                 | Initialising a struct using different methods.       |
+| [_pass-struct-to-func_](./structs/pass-struct-to-func/main.go) | Passing struct to a function by reference and value. |
 
 ### Methods
 
@@ -120,3 +119,7 @@ For example, to run `hello-world`:
 ```go
 go run hello-world/main.go
 ```
+
+## Acknowledgements
+
+There examples are obtained from KodeKloud's [Golang for Beginners](https://learn.kodekloud.com/courses/golang) course.
