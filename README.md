@@ -107,6 +107,8 @@ Below is a list packages that provide examples of channels:
 | [_for-range_](./channels/for-range/main.go)                 | Using a `for-range` to receive data from a buffered channel.                                                  |
 | [_go-routine-leak_](./channels/go-routine-leak/main.go)     | A goroutine leak cause by a goroutine that remains active indefinitely.                                       |
 | [_select-statement_](./channels/select-statement/main.go)   | Using a [`select`](https://go.dev/tour/concurrency/5) statement to wait on multiple communication operations. |
+| [_closure-in-a-loop_](./channels/closure-in-a-loop/main.go) | A goroutine closure executed in a `for` loop                                                                  |
+| [_time-out-code_](./channels/time-out-code/main.go)         | Adding a time out in a `select` statement when waiting on receiver/sender.                                    |
 
 ## Running Locally
 
