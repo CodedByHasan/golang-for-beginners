@@ -28,7 +28,7 @@ func sell(channel chan int, wg *sync.WaitGroup) {
 func buy(channel chan int, wg *sync.WaitGroup) {
     fmt.Println("Waiting for data...")
 
-    // Using a for-range to recieve values from sell channel 
+    // Using a for-range to receive values from sell channel 
     for val := range channel {
         fmt.Printf("Received: %d\n", val)
     }
