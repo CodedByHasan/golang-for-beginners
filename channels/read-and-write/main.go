@@ -22,7 +22,7 @@ func main() {
 
 // sends data to the channel
 func sell(channel chan string, wg *sync.WaitGroup) {
-    // sell() will BLOCK go routine until another channel receives data
+    // sell() will BLOCK goroutine until another channel receives data
     channel <- "SOME DATA"
     fmt.Println("Sent data to the channel")
 
@@ -33,7 +33,7 @@ func sell(channel chan string, wg *sync.WaitGroup) {
 func buy(channel chan string, wg *sync.WaitGroup) {
     fmt.Println("Waiting for data...")
 
-    // buy() will UNBLOCK sell() go routine
+    // buy() will UNBLOCK sell() goroutine
     val := <-channel
     fmt.Printf("Received data - %s\n", val)
 

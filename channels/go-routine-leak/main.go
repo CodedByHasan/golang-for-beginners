@@ -15,8 +15,8 @@ func main() {
 func leak(wg *sync.WaitGroup) {
     channel := make(chan int)
 
-    // anonymous go routine will wait indefinitely
-    // which will cause a go routing leak (deadlock)!
+    // anonymous goroutine will wait indefinitely
+    // which will cause a goroutine leak (deadlock)!
     go func() {
         val := <-channel
         fmt.Println(val)

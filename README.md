@@ -79,23 +79,23 @@ Below is a list packages that provide examples of methods:
 | [_methods_](./methods/intro/main.go)          | Simple method.                                |
 | [_method-set_](./methods/method-sets/main.go) | Method set used to interface with a `struct`. |
 
-### Go routines
+### Goroutines
 
 A [`goroutine`](https://go.dev/tour/concurrency/1) is a lightweight thread managed by the Go runtime.
 
-Below is a list packages that provide examples of go routines:
+Below is a list packages that provide examples of goroutines:
 
 | Package Name                                                                    | Description                                                       |
 |---------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| [_anonymous-go-routine_](./go-routines/anonymous-go-routine/main.go)            | Anonymous go routine.                                             |
-| [_main-go-routine_](./go-routines/main-go-routine/main.go)                      | The `main` go routine.                                            |
+| [_anonymous-go-routine_](./go-routines/anonymous-go-routine/main.go)            | Anonymous goroutine.                                              |
+| [_main-go-routine_](./go-routines/main-go-routine/main.go)                      | The `main` goroutine.                                             |
 | [_simple-example_](./go-routines/simple-example/main.go)                        | Simple example demonstrating a `go` routine.                      |
 | [ _wait-groups_](./go-routines/wait-groups/main.go)                             | An example of a [`WaitGroup`](https://pkg.go.dev/sync#WaitGroup). |
 | [ _print-letters-and-numbers_](./go-routines/print-letters-and-numbers/main.go) | Using goroutines to prints letter and numbers to the screen.      |
 
 ### Channels
 
-[Channels](https://go.dev/tour/concurrency/2) are a typed conduit through which you can send and recieve values with the
+[Channels](https://go.dev/tour/concurrency/2) are a typed conduit through which you can send and receive values with the
 channel operater `<-`.
 
 Below is a list packages that provide examples of channels:
@@ -131,4 +131,5 @@ go run hello-world/main.go
 
 ## Acknowledgements
 
-There examples are obtained from KodeKloud's [Golang for Beginners](https://learn.kodekloud.com/courses/golang) course.
+There examples are obtained from KodeKloud's [Golang for Beginners](https://learn.kodekloud.com/courses/golang)
+and [Advanced Golang](https://learn.kodekloud.com/courses/advanced-golang) courses.

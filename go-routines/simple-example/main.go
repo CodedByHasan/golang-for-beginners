@@ -18,7 +18,7 @@ func main() {
     start := time.Now()
 
     for i := 1; i <= 10000; i++ {
-        // go routine
+        // goroutine
         go calculateSquare(i)
     }
 

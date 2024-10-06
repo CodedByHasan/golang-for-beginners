@@ -7,7 +7,7 @@ import (
 )
 
 // Numbers are printed in random order
-// because go-routines are non-deterministic
+// because goroutines are non-deterministic
 func calculateSquare(i int, wg *sync.WaitGroup) {
     fmt.Println(i * i)
     wg.Done() // Decrement Wait Group counter by 1

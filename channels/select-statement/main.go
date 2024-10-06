@@ -22,7 +22,7 @@ func main() {
     case val2 := <-channel2:
         fmt.Println(val2)
         break
-    // Makes the select statement NON BLOCKING
+    // "default" makes the select statement NON BLOCKING
     default:
         fmt.Println("Executed default block")
     }
