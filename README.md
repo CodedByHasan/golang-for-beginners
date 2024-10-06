@@ -85,12 +85,13 @@ A [`goroutine`](https://go.dev/tour/concurrency/1) is a lightweight thread manag
 
 Below is a list packages that provide examples of go routines:
 
-| Package Name                                                         | Description                                                       |
-|----------------------------------------------------------------------|-------------------------------------------------------------------|
-| [_anonymous-go-routine_](./go-routines/anonymous-go-routine/main.go) | Anonymous go routine.                                             |
-| [_main-go-routine_](./go-routines/main-go-routine/main.go)           | The `main` go routine.                                            |
-| [_simple-example_](./go-routines/simple-example/main.go)             | Simple example demonstrating a `go` routine.                      |
-| [ _wait-groups_](./go-routines/wait-groups/main.go)                  | An example of a [`WaitGroup`](https://pkg.go.dev/sync#WaitGroup). |
+| Package Name                                                                    | Description                                                       |
+|---------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [_anonymous-go-routine_](./go-routines/anonymous-go-routine/main.go)            | Anonymous go routine.                                             |
+| [_main-go-routine_](./go-routines/main-go-routine/main.go)                      | The `main` go routine.                                            |
+| [_simple-example_](./go-routines/simple-example/main.go)                        | Simple example demonstrating a `go` routine.                      |
+| [ _wait-groups_](./go-routines/wait-groups/main.go)                             | An example of a [`WaitGroup`](https://pkg.go.dev/sync#WaitGroup). |
+| [ _print-letters-and-numbers_](./go-routines/print-letters-and-numbers/main.go) | Using goroutines to prints letter and numbers to the screen.      |
 
 ### Channels
 
@@ -109,6 +110,8 @@ Below is a list packages that provide examples of channels:
 | [_select-statement_](./channels/select-statement/main.go)   | Using a [`select`](https://go.dev/tour/concurrency/5) statement to wait on multiple communication operations. |
 | [_closure-in-a-loop_](./channels/closure-in-a-loop/main.go) | A goroutine [closure](https://go.dev/tour/moretypes/25) executed in a `for` loop                              |
 | [_time-out-code_](./channels/timeout-code/main.go)          | Adding a [timeout](https://go.dev/wiki/Timeouts) in a `select` statement when waiting on receiver/sender.     |
+| [_rx-and-tx-data-1_](./channels/rx-and-tx-data-1/main.go)   | Sending and received data using channels.                                                                     |
+| [_rx-and-tx-data-2_](./channels/rx-and-tx-data-2/main.go)   | Another example of sending and receiving data using channels.                                                 |
 
 ## Running Locally
 
