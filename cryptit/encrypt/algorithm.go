@@ -1,5 +1,7 @@
 package encrypt
 
+// Use captial letter so that Nimbus
+// can be used outside of encrypt package.
 func Nimbus(str string) string {
     encryptedStr := ""
 
