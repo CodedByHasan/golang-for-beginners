@@ -1,36 +1,36 @@
 # Golang for Beginners
 
-This repository contains contains simple examples of basic [Golang](https://go.dev/) concepts.
+This repository contains contains simple examples of [Golang](https://go.dev/) concepts.
 
 ## Repository Overview
 
-Below is an outline of all packages contained in this repository.
+Below is an outline of all examples contained in this repository.
 
 ### Hello World
 
-| Package Name                           | Decription                               |
-|----------------------------------------|------------------------------------------|
+| Name                                   | Decription                               |
+| -------------------------------------- | ---------------------------------------- |
 | [_hello-world_](./hello-world/main.go) | Prints `Hello world` to standard output. |
 
 ### Interfaces
 
-An [interface](https://go.dev/tour/methods/9) specifies a method set and is a way useful way to introduce modularity.
+An [interface](https://go.dev/tour/methods/9) specifies a method set and is a useful way to introduce modularity.
 It is like a blueprint for a method set.
 
-Below is a list packages that provide examples of interfaces:
+Examples of interfaces can be found below:
 
-| Package Name                         | Description                                              |
-|--------------------------------------|----------------------------------------------------------|
+| Name                                 | Description                                              |
+| ------------------------------------ | -------------------------------------------------------- |
 | [_interfaces_](./interfaces/main.go) | Two different structs that implement a common interface. |
 
 ### Functions
 
 A [function](https://go.dev/tour/basics/4) can take zero or more arguments.
 
-Below is a list of packages that provide examples of functions:
+Examples of functions can be found below:
 
-| Package Name                                             | Description                                                                     |
-|----------------------------------------------------------|---------------------------------------------------------------------------------|
+| Name                                                     | Description                                                                     |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | [_anonymous_](./functions/anonymous/main.go)             | Function that does not contain a name.                                          |
 | [_defer-statement_](./functions/defer-statement/main.go) | Demonstrates `defer` statement.                                                 |
 | [_higher-order_](./functions/higher-order/main.go)       | Calculates basic properties of a circle with example of higher order functions. |
@@ -42,10 +42,10 @@ Below is a list of packages that provide examples of functions:
 
 A [pointer](https://go.dev/tour/moretypes/1) holds the memory address of a value.
 
-Below is a list of packages that provide examples of pointers.
+Examples of pointers can be found below:
 
-| Package Name                                                          | Description                                                                  |
-|-----------------------------------------------------------------------|------------------------------------------------------------------------------|
+| Name                                                                  | Description                                                                  |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | [_address-and-deference_](./pointers/address-and-dereference/main.go) | Address `(&)` and dereference operators `(*)`.                               |
 | [_declare-pointer_](./pointers/declare-pointer/main.go)               | Declaring a pointer.                                                         |
 | [_dereference-pointer_](./pointers/dereference-pointer/main.go)       | Dereference pointer.                                                         |
@@ -57,10 +57,10 @@ Below is a list of packages that provide examples of pointers.
 
 A [`struct`](https://go.dev/tour/moretypes/2) is a collection of fields.
 
-Below is a list of packages that provide example of structs:
+Example of structs can be found below:
 
-| Package Name                                                   | Description                                            |
-|----------------------------------------------------------------|--------------------------------------------------------|
+| Name                                                           | Description                                            |
+| -------------------------------------------------------------- | ------------------------------------------------------ |
 | [_accessing-fields_](./structs/accessing-fields/main.go)       | Accessing fields within a `struct`.                    |
 | [_comparing-structs_](./structs/comparing-structs/main.go)     | Comparing structs.                                     |
 | [_declare-struct_](./structs/declare-struct/main.go)           | Declare a `struct`.                                    |
@@ -72,10 +72,10 @@ Below is a list of packages that provide example of structs:
 A [method](https://go.dev/tour/methods/1) is a function with a special receiver argument. The receiver appears in its
 own argument list between the `func` keyword and the method name.
 
-Below is a list packages that provide examples of methods:
+Examples of methods can be found below:
 
-| Package Name                                  | Description                                   |
-|-----------------------------------------------|-----------------------------------------------|
+| Name                                          | Description                                   |
+| --------------------------------------------- | --------------------------------------------- |
 | [_methods_](./methods/intro/main.go)          | Simple method.                                |
 | [_method-set_](./methods/method-sets/main.go) | Method set used to interface with a `struct`. |
 
@@ -83,10 +83,10 @@ Below is a list packages that provide examples of methods:
 
 A [`goroutine`](https://go.dev/tour/concurrency/1) is a lightweight thread managed by the Go runtime.
 
-Below is a list packages that provide examples of goroutines:
+Examples of goroutines can be found below:
 
-| Package Name                                                                    | Description                                                       |
-|---------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| Name                                                                            | Description                                                       |
+| ------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | [_anonymous-go-routine_](./go-routines/anonymous-go-routine/main.go)            | Anonymous goroutine.                                              |
 | [_main-go-routine_](./go-routines/main-go-routine/main.go)                      | The `main` goroutine.                                             |
 | [_simple-example_](./go-routines/simple-example/main.go)                        | Simple example demonstrating a `go` routine.                      |
@@ -98,10 +98,10 @@ Below is a list packages that provide examples of goroutines:
 [Channels](https://go.dev/tour/concurrency/2) are a typed conduit through which you can send and receive values with the
 channel operater `<-`.
 
-Below is a list packages that provide examples of channels:
+Examples of channels can be found below:
 
-| Package Name                                                | Description                                                                                                   |
-|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| Name                                                        | Description                                                                                                   |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | [_read-and-write_](./channels/read-and-write/main.go)       | Send and receive messages on unbuffered channels.                                                             |
 | [_buffered_](./channels/buffered/main.go)                   | Send and receive messages on [buffered channels](https://go.dev/tour/concurrency/3).                          |
 | [_closing-a-channel_](./channels/closing-a-channel/main.go) | Example of closing a buffered channel.                                                                        |
@@ -117,7 +117,7 @@ Below is a list packages that provide examples of channels:
 
 > Assuming you are in . directory.
 
-To run the different packages locally:
+To run the different examples locally:
 
 ```go
 go run /path/to/main.go
