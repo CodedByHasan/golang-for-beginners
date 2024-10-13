@@ -113,6 +113,16 @@ Examples of channels can be found below:
 | [_rx-and-tx-data-1_](./channels/rx-and-tx-data-1/main.go)   | Sending and received data using channels.                                                                     |
 | [_rx-and-tx-data-2_](./channels/rx-and-tx-data-2/main.go)   | Another example of sending and receiving data using channels.                                                 |
 
+## Packages
+
+Every go program is made up of packages. Programs start running in package `main`
+
+An example package can be found below:
+
+| Name                                           | Description                                                        |
+| ---------------------------------------------- | ------------------------------------------------------------------ |
+| [_example-package_](./example-package/main.go) | Generates a unique ID and encrypts a string and outputs to screen. |
+
 ## Running Locally
 
 > Assuming you are in . directory.
