@@ -57,7 +57,7 @@ Examples of pointers can be found below:
 
 A [`struct`](https://go.dev/tour/moretypes/2) is a collection of fields.
 
-Example of structs can be found below:
+Examples of structs can be found below:
 
 | Name                                                           | Description                                            |
 | -------------------------------------------------------------- | ------------------------------------------------------ |
