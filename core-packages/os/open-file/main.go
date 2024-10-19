@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-var PATH string = "./core-packages/os/test2.txt"
+var PATH string = "./test2.txt"
 
 func main() {
 	file, err := os.OpenFile(PATH, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0600)

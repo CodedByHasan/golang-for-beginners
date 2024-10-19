@@ -1,2 +1,5 @@
-# Ignoring file created by open-file/main.go
+# Ignoring file created by os/open-file/main.go
 test2.txt
+
+# Ignoring file created by logging/log-to-file/main.go
+app.log
